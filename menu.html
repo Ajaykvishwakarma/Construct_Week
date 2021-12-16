@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Makeup Page</title>
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="homepage.js" />
+
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+<style>
+  #cotegory{
+    height:50px;
+    width:100%;
+    display:flex;
+    overflow: hidden;
+
+  }
+
+  #cotegory > div:nth-child(2){
+  width:30%;
+}
+#cotegory > div:nth-child(3){
+width:25%;
+display:flex;
+grid-gap:10px;
+font-size: 15px;
+margin:auto;
+font-family:'Quicksand' ;
+font-weight: bold;
+justify-content: right;
+
+}
+#cotegory > div:nth-child(3) > div:nth-child(1){
+    margin-top:2px;
+    margin-right:15px;
+}
+#cotegory > div:nth-child(3) > div:nth-child(1) a:hover{
+  font-size:18px;
+
+}
+#cotegory > div:nth-child(3) > div:nth-child(1) a{
+   text-decoration: none;
+   color:black;
+
+}
+#cotegory > div:nth-child(3) > div:nth-child(2){
+    font-size: 20px;
+    
+}
+#cotegory > div:nth-child(3) > div:nth-child(2) a{
+  color:black;
+}
+#cotegory > div:nth-child(3) > div:nth-child(2) a:hover{
+    font-size: 23px;
+    color:rgb(136, 136, 136);
+    
+}
+.middlemenu{
+  margin:auto;
+  font-weight: bold;
+  width:20%;
+  font-size:12px;
+  font-family:'Quicksand';
+  margin-top:15px;
+  color:#b9b9b9;
+}
+.middlemenu > a{
+ color:black;
+ font-size: 12px;
+ font-family:'Quicksand';
+ text-decoration: none;
+
+}
+@media only screen and(min-width:375px) and (max-width:768px)
+{
+  #cotegory{
+    height:50px;
+    width:50%;
+    display:flex;
+
+  }
+}
+
+</style>
+  </head>
+  <body>
+    <i class="fa fa-globe" style="color:skyblue;font-size:22px"></i>
+    ;<a href="https://www.facebook.com/" target="blank"> <i class="fa fa-facebook-square" style="color:blue;font-size:45px;"></i></a>
+    <i class="fa fa-facebook" style="color:blue;font-size:45px;"></i>
+    </div>
+    <div id = "cotegory">
+      <div class = "middlemenu"><a href ="homepage.html"><i class="fa fa-home"></i> Home / </a>FEATURED COLLECTION </div>
+      <div></div>
+      <div>
+      <div><a href="">Filters <i class="fa fa-plus"></i></a></div>
+      <div><a href =""><i class="fa fa-th" ></i></a>&emsp;<a href="#"><i class="fa fa-bars" ></i></a></div>
+    </div>
+  </body>
+</html>
